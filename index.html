@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HACKxTHU</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+  <div id="main">
+    <nav class="menu-nav">
+      <a href="#" class="lang">EN</a>
+      <ul>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#apply">申请入口</a></li>
+        <li><a href="#activity" onclick="showErr()">活动日程</a></li>
+        <li><a href="#question">常见问题</a></li>
+        <li><a href="#sponor" onclick="showErr()">赞助单位</a></li>
+      </ul>
+    </nav>
+    <div class="logo"></div>
+    <footer>
+      <p class="time"><a href="#">2017</a></p>
+      <p><a href="#">HACK x THU</a></p>
+      <p><span>2017清华大学黑客马拉松<span></p>
+      <p><a href="#about" class="next"></a></p>
+    </footer>
+  </div>
+  <div id="about">
+    <h2>关于我们</h2>
+    <p>黑客马拉松(Hackathon)作为一项学生科技创新实践的活动，已经逐年扩张到世界各地学校当中。</p>
+    <p>此项活动将通过借助各家企业开源的  API（Application Programming Interface） 和 SDK（Software Development Kit），以此为学生们提供在短时间内开发软件和硬件的竞赛平台，最终来促进学生们充分地利用所学的科技开发技能去完成设计插件或搭建各类应用项目的雏形。</p>
+    <p>在比赛过程中，每个学生将学习如何与团队协作并形成优势互补去完善项目的设计和落地成型。另外，学生们在项目开发中可利用高科技公司提供的API、SDK 及硬件设备，与公司技术开发代表进行深度沟通并协作完成插件以及产品再造。</p>
+    <p>学生也可借此机会对接企业技术开发者和招聘团队，为以后技术开发及落地或者就业寻找合适的机会。学生们也可连接受邀的创投公司，将开发的项目雏形通过登台公众演示以及赛后的技术完善来获得潜在的初创投资支持，以此来完成产品或服务的商业转化。最终，学生们不但通过此项比赛收获各类奖品，而更为重要的是，学生开发者们将能够更好地实现创新、创造，并在实践中找到自己心仪的合作伙伴。</p>
+  </div>
+  <div id="apply">
+    <div class="ap-container">
+      <p class="word">欢迎各类学科学生的报名申请</p>
+      <p class="word">请您填写下方申请入口中的正式申请表</p>
+      <p class="image"></p>
+      <p class="button"><a href="">申请入口</a></p>
+    </div>
+  </div>
+  <!-- <div id="activity"></div> -->
+  <div id="question">
+    <div class="qu-container">
+      <h3>1. HACK x THU是什么活动？</h3>
+      <p>HACK×THU是由复旦大学和葡萄科技技术（深圳）有限公司组织筹办的Hackathon。这场Hackathon旨在鼓励学生“学以致用”和“团队合作”，学习创造各类软硬件、应用、游戏、插件等等。我们将鼓励开源技术的使用和推广，并手把手地教学生如何使用各家企业开源API/SDKs。</p>
+      <h3>2. 参加HACK x THU需要缴费么？</h3>
+      <p>筛选进入的学生不用支付任何费用参加比赛，我们将负责参赛学生的吃、喝及休息。另外，我们也将会为北京市外的学生提供交通补助。快来报名加入我们吧！</p>
+      <h3>3. 谁能够申请参加？</h3>
+      <p>HACK×THU将面向全国各类高校，学生申请者提交申请后，我们将从所有申请人当中优选出全国300名学生来清华大学参加HACK×THU活动。我们坚信“创新是人文与技术的结合体，缺一不可。”我们鼓励各类主修的学生参与，无论你是学社会科学类，还是学基础理、工科类的学生，我们都将欢迎你的申请加入！</p>
+      <h3>4. 如果我不会编程怎么办？</h3>
+      <p>参加HACK×THU是你学习编程的最佳机会！没有人天生就会编程，我们鼓励初学者参与，并将为初学者配相关的技术指导，带你成为老司机！当然，我们也建议申请者，可以提前通过如计蒜客、Code Academy、Udacity、Coursera等方式自学哦！</p>
+      <h3>5. 申请成功后，我们将如何组队？</h3>
+      <p>我们将鼓励大家自由组队的方式，并将在正式申请时，询问申请人是否与其他申请者已提前组队。如果有提前组队的意向，请将他们的姓名填入申请表中。我们将会进行综合地考虑，筛选每一位优秀的学生！组队人数需保证至少2人，最多5人。我们会为选中的学生提供线上赛前组队的机会，但如果你不能在赛前找到团队成员，我们也将会在开幕式后提供组队以及头脑风暴的机会。</p>
+      <h3>6. 成功筛选后，我们需要带些什么东西参加比赛？</h3>
+      <p>我们将为比赛学生提供充足的吃、喝、网络及电源供应，以及休息和娱乐区域。你需要携带身份证、学生证、便携式电脑、换洗衣服及洗漱用具。当然，我们会为外校学生提供休息区以及睡觉必备的毯子，但为避免供应紧张，我们建议学生准备睡袋或毯子。</p>
+      <h3>7. 参加HACK x THU，我可以赢得什么？</h3>
+      <p>参加HACK×THU的学生不但有机会获得大赛设置的精美奖项和高科技礼品，并有可能同时获得企业的青睐，得到企业特设的奖品，甚至获得实习、全职offer。一切皆有可能，我们等你的参与哦！</p>
+      <h3>8. 如果有其他什么问题，我该怎么办？</h3>
+      <p>请发送邮件至ask@grapetech.org。</p>
+    </div>
+  </div>
+  <div id="copyright">
+    <p>&copy;HACK x THU All rights reserved</p>
+    <p>葡萄科技技术（深圳）有限公司</p>
+  </div>
+  <!-- <div id="sponor"></div> -->
+  <div id="menu">
+    <nav>
+      <img class="logo" src="images/logo.png"></img>
+      <a href="javascript:void(0);" class="lang">EN</a>
+      <a href="javascript:void(0);" class="m-menu" onclick="showMenu()"></a>
+      <ul id="menu-box">
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#apply">申请入口</a></li>
+        <li><a href="#activity" onclick="showErr()">活动日程</a></li>
+        <li><a href="#question">常见问题</a></li>
+        <li><a href="#sponor" onclick="showErr()">赞助单位</a></li>
+      </ul>
+    </nav>
+  </div>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
