@@ -132,7 +132,7 @@ body > div {
     background-size: 100%;
     background-repeat: repeat;
   }
-  #about h2,#about p {
+  #about .about-title,#about p {
     display: none;
   }
   #apply {
