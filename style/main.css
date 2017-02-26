@@ -174,8 +174,14 @@ body > div {
     border: solid 5px #2EC3E5;
     background: #201F44;
   }
-  #question {
+  #activity, #sponor {
     background-image: url(../images/bg2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  #question {
+    background-image: url(../images/apply.png);
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -434,12 +440,12 @@ body > div {
   }
   #question {
     position: relative;
-    height: 1520px;
+    height: 1620px;
   }
   .qu-container {
     position: absolute;
     width: 80%;
-    top: 50px;
+    top: 100px;
     left: 10%;
   }
   .qu-container h3 {
@@ -456,4 +462,20 @@ body > div {
     text-align: center;
     background: #211B28;
   }
+  #activity, #sponor {
+    height: 300px;
+  }
+}
+
+.section-title {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+.section-content {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
 }
