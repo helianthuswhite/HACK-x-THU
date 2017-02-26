@@ -164,8 +164,6 @@ body > div {
   .ap-container .button {
     text-align: center;
     margin-top: 80px;
-  }
-  .ap-container .button a {
     display: inline-block;
     padding: 5px 15px;
     font-size: 40px;
@@ -174,6 +172,8 @@ body > div {
     border-radius: 20px;
     border: solid 5px #2EC3E5;
     background: #201F44;
+    display: block;
+    width: 200px;
   }
   #activity, #sponor {
     background-image: url(../images/bg2.png);
@@ -404,14 +404,7 @@ body > div {
     height: 600px;
   }
   .ap-container {
-    position: absolute;
-    width: 60%;
-    height: 50%;
-    top: 30%;
-    left: 20%;
-  }
-  .ap-container p:first-child {
-    margin-top: 8%;
+    padding: 20px;
   }
   .ap-container .word {
     font-size: 25px;
@@ -429,20 +422,20 @@ body > div {
   .ap-container .button {
     text-align: center;
     margin-top: 80px;
-  }
-  .ap-container .button a {
     display: inline-block;
     padding: 5px 15px;
     font-size: 30px;
     color: #fff;
-    margin: 0 auto;
+    margin: 100px auto 10px auto;
     border-radius: 20px;
     border: solid 5px #2EC3E5;
     background: #201F44;
+    display: block;
+    width: 200px;
   }
   #question {
     position: relative;
-    height: 1720px;
+    height: 1850px;
   }
   .qu-container {
     position: relative;
