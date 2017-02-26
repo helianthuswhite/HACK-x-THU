@@ -39,7 +39,7 @@ body > div {
     height: 100%;
     background-image: url(../images/bg.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
   #main > nav {
     position: absolute;
@@ -117,14 +117,14 @@ body > div {
     height: 50px;
     background-image: url(../images/next.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     border: none;
     margin-top: 20px;
   }
   #about {
     background-image: url(../images/about.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
   #about h2,#about p {
     display: none;
@@ -133,7 +133,7 @@ body > div {
     position: relative;
     background-image: url(../images/apply.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
   .ap-container {
     position: absolute;
@@ -159,10 +159,11 @@ body > div {
     margin: 20px auto;
     background-image: url(../images/next.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
   .ap-container .button {
     text-align: center;
+    margin-top: 80px;
   }
   .ap-container .button a {
     display: inline-block;
@@ -177,13 +178,14 @@ body > div {
   #activity, #sponor {
     background-image: url(../images/bg2.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 300px;
   }
   #question {
     background-image: url(../images/apply.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    height: 1000px;
   }
   #menu {
     position: fixed;
@@ -253,9 +255,8 @@ body > div {
     display: block;
   }
   .qu-container {
-    position: absolute;
+    position: relative;
     width: 80%;
-    top: 100px;
     left: 10%;
   }
   .qu-container h3 {
@@ -284,7 +285,7 @@ body > div {
     height: 100%;
     background-image: url(../images/apply.png);
     background-size: 200%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
   #main .logo {
     width: 100%;
@@ -319,7 +320,7 @@ body > div {
     height: 50px;
     background-image: url(../images/next.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     border: none;
     margin-top: 20px;
   }
@@ -344,7 +345,7 @@ body > div {
     margin-right: 30px;
     background-image: url(../images/m-menu.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
   #menu ul {
     position: absolute;
@@ -423,10 +424,11 @@ body > div {
     margin: 20px auto;
     background-image: url(../images/next.png);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
   .ap-container .button {
     text-align: center;
+    margin-top: 80px;
   }
   .ap-container .button a {
     display: inline-block;
@@ -440,12 +442,11 @@ body > div {
   }
   #question {
     position: relative;
-    height: 1620px;
+    height: 1720px;
   }
   .qu-container {
-    position: absolute;
+    position: relative;
     width: 80%;
-    top: 100px;
     left: 10%;
   }
   .qu-container h3 {
@@ -471,11 +472,17 @@ body > div {
   font-size: 40px;
   color: #fff;
   text-align: center;
-  padding: 50px;
+  padding: 100px 50px 50px 50px;
 }
 
 .section-content {
   font-size: 20px;
   color: #fff;
+  text-align: center;
+}
+
+.deadline {
+  font-size: 20px;
+  color: white;
   text-align: center;
 }
