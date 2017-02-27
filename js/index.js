@@ -1,17 +1,17 @@
-window.onload=function(){
-  var scrollTop=0;
+window.onload = function () {
+  var scrollTop = 0;
   var menu = document.getElementById('menu');
   var about = document.getElementById('about');
   //设置原始变量
-  setInterval(function(){
+  setInterval(function () {
     var aboutTop = about.getBoundingClientRect().top;
     var clientWidth = document.body.clientWidth;
-    if(clientWidth < 767 || aboutTop<1){      
+    if (clientWidth < 767 || aboutTop < 1) {
       menu.style.display = 'block';
-    }else {
+    } else {
       menu.style.display = 'none';
     }
-  },160);
+  }, 160);
 }
 
 function showErr() {
@@ -25,7 +25,7 @@ function showMenu() {
   if (tab === 0) {
     menu.style.display = 'block';
     tab = 1;
-  }else if (tab === 1) {
+  } else if (tab === 1) {
     menu.style.display = 'none';
     tab = 0;
   }
