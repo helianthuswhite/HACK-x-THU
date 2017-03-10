@@ -141,7 +141,7 @@ html,body {
   .ap-container {
     position: absolute;
     width: 60%;
-    height: 50%;
+    height: 60%;
     top: 30%;
     left: 20%;
     background: #211B28;
@@ -484,4 +484,14 @@ html,body {
 .enterprise-img {
   height: 100px;
   max-width: 100%;
+}
+
+.annocement {
+    color: white;
+    padding: 0 40px;
+    line-height: 30px;
+}
+
+.annocement-date {
+  text-align: right;
 }
