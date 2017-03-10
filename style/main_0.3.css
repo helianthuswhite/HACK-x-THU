@@ -1,15 +1,18 @@
+
 /* source-sans-pro-normal - latin */
+
 @font-face {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: regular;
-  src: url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Source Sans Pro'), local('SourceSans Pro-Normal'),
-       url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.svg#SourceSans Pro') format('svg'); /* Legacy iOS */
+  src: url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Source Sans Pro'), local('SourceSans Pro-Normal'), url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('//lib.baomitu.com/fonts/source-sans-pro/source-sans-pro-v9-latin-regular.svg#SourceSans Pro') format('svg');
+  /* Legacy iOS */
 }
 
 * {
@@ -23,11 +26,13 @@ a {
   text-align: center;
 }
 
-html,body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
-@media screen and (min-width : 769px) {
+
+@media screen and (min-width: 769px) {
   .section-title {
     font-size: 40px;
     color: #fff;
@@ -43,14 +48,14 @@ html,body {
     background-size: 100%;
     background-repeat: repeat;
   }
-  #main > nav {
+  #main>nav {
     position: absolute;
     width: 50%;
     left: 50%;
     margin-left: -25%;
     margin-top: 8%;
   }
-  #main > nav:after {
+  #main>nav:after {
     content: '';
     clear: both;
     display: block;
@@ -97,7 +102,7 @@ html,body {
     clear: both;
     display: block;
   }
-  #main > footer {
+  #main>footer {
     position: absolute;
     box-sizing: border-box;
     width: 100%;
@@ -128,7 +133,8 @@ html,body {
     background-size: 100%;
     background-repeat: repeat;
   }
-  #about .about-title,#about p {
+  #about .about-title,
+  #about p {
     display: none;
   }
   #apply {
@@ -178,7 +184,8 @@ html,body {
     display: block;
     width: 200px;
   }
-  #activity, #sponor {
+  #activity,
+  #sponor {
     background-color: #211B28;
   }
   #question {
@@ -196,7 +203,7 @@ html,body {
     border-bottom: solid 5px #2EC3E5;
     width: 100%;
   }
-  #menu > nav {
+  #menu>nav {
     width: 60%;
     margin: 0 auto;
   }
@@ -276,7 +283,7 @@ html,body {
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .section-title {
     font-size: 30px;
     color: #fff;
@@ -302,10 +309,10 @@ html,body {
     background-position: center;
     background-repeat: no-repeat;
   }
-  #main > nav {
+  #main>nav {
     display: none;
   }
-  #main > footer {
+  #main>footer {
     position: absolute;
     box-sizing: border-box;
     width: 100%;
@@ -380,7 +387,6 @@ html,body {
     font-size: 20px;
     color: #FFF;
     line-height: 25px;
-
   }
   #menu ul li:last-child {
     border: none;
@@ -481,15 +487,16 @@ html,body {
 .enterprise-col {
   height: 120px;
 }
+
 .enterprise-img {
   height: 100px;
   max-width: 100%;
 }
 
 .annocement {
-    color: white;
-    padding: 0 40px;
-    line-height: 30px;
+  color: white;
+  padding: 0 40px;
+  line-height: 30px;
 }
 
 .annocement-date {
