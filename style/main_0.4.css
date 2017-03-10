@@ -147,7 +147,7 @@ body {
   .ap-container {
     position: absolute;
     width: 60%;
-    height: 60%;
+    height: 70%;
     top: 30%;
     left: 20%;
     background: #211B28;
@@ -184,7 +184,9 @@ body {
     display: block;
     width: 200px;
   }
-  #activity,
+  #activity {
+    background-color: #211B28;
+  }
   #sponor {
     background-color: #211B28;
   }
