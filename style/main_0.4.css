@@ -94,6 +94,9 @@ body {
     line-height: 25px;
     border-right: solid 1px #2EC3E5;
   }
+  #main ul li:last-child a {
+    border-right: none;
+  }
   #main ul li a:hover {
     color: #E8E864;
   }
