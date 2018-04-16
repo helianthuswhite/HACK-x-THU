@@ -134,10 +134,8 @@
         background-repeat: repeat;
         height: 500px;
     }
-    #prize p {
-        color: #2EC3E5;
-        text-align: center;
-        font-size: 30px;
+    #prize div {
+        margin: 0px 90px;
     }
     #apply {
         position: relative;

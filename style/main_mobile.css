@@ -157,16 +157,13 @@
         background-image: url(../images/bg2.png);
         background-size: 100%;
         background-repeat: repeat;
-        height: 500px;
+        height: 900px;
     }
-    #prize p {
-        color: #2EC3E5;
-        text-align: center;
-        font-size: 30px;
+    #prize div {
+        margin: 0px 10px;
     }
     #apply {
         position: relative;
-        height: 300px;
     }
     #sponsor {
         background-color: #211B28;
@@ -218,7 +215,6 @@
     }
     #question {
         position: relative;
-        height: 1100px;
     }
     .qu-container {
         position: relative;
