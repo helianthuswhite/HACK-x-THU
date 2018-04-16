@@ -63,9 +63,9 @@ body {
 
 .bubble-right {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 5px;
   text-align: left;
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
   font-weight: 900;
 }
