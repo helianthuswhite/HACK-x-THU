@@ -222,7 +222,18 @@ body {
     background-image: url(../images/apply.png);
     background-size: 100%;
     background-repeat: repeat;
-    height: 1000px;
+    height: 1200px;
+  }
+  #sponsor div {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+  }
+  #sponsor p {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
   }
   #question {
     background-image: url(../images/apply.png);
@@ -464,6 +475,24 @@ body {
   #apply {
     position: relative;
     height: 600px;
+  }
+  #sponsor {
+    background-color: #211B28;
+    background-image: url(../images/apply.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    height: 1200px;
+  }
+  #sponsor div {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+  }
+  #sponsor p {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
   }
   .ap-container {
     padding: 20px;
