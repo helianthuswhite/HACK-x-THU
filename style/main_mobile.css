@@ -1,0 +1,242 @@
+@media screen and (max-width: 1200px) {
+    .section-title {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        padding: 100px 50px 50px 50px;
+    }
+    .event-lg {
+        margin-left: 200px;
+    }
+    .bubble.prepare {
+        margin-left: 200px;
+    }
+    .bubble.rest {
+        margin-left: 200px;
+    }
+    .bubble.crazy {
+        margin-left: 200px;
+    }
+    .time-span {
+        margin-left: 230px;
+    }
+    body {
+        background: #211B28;
+    }
+    #main {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/apply.png);
+        background-size: 200%;
+        background-repeat: repeat;
+    }
+    #main .logo {
+        width: 100%;
+        height: 90%;
+        background-image: url(../images/main.png);
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #main>nav {
+        display: none;
+    }
+    #main>footer {
+        position: absolute;
+        box-sizing: border-box;
+        width: 100%;
+        height: 150px;
+        bottom: 40px;
+    }
+    #main footer p {
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+    }
+    #main footer p a {
+        display: inline-block;
+        color: #2EC3E5;
+        border-bottom: solid 2px #CC66CC;
+    }
+    #main .next {
+        width: 50px;
+        height: 50px;
+        background-image: url(../images/next.png);
+        background-size: 100%;
+        background-repeat: repeat;
+        border: none;
+        margin-top: 20px;
+    }
+    #menu {
+        position: fixed;
+        display: block;
+        top: 0px;
+        background: #211F44;
+        height: 80px;
+        width: 100%;
+    }
+    #menu .logo {
+        float: left;
+        display: block;
+        height: 70px;
+    }
+    #menu .m-menu {
+        width: 50px;
+        height: 50px;
+        float: right;
+        margin-top: 15px;
+        margin-right: 30px;
+        background-image: url(../images/m-menu.png);
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+    #menu ul {
+        position: absolute;
+        display: none;
+        box-sizing: border-box;
+        right: 0;
+        top: 80px;
+        padding: 5px 15px;
+        background: #211F44;
+        list-style-type: none;
+    }
+    #menu .lang {
+        position: absolute;
+        right: 100px;
+        margin-top: 15px;
+        display: block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        color: #2EC3E5;
+        border-radius: 50%;
+        border: solid 5px #2EC3E5;
+    }
+    #menu ul li {
+        box-sizing: border-box;
+        padding: 10px 15px;
+        border-bottom: solid 2px #2EC3E5;
+    }
+    #menu ul li a {
+        display: block;
+        height: 25px;
+        width: 100%;
+        font-size: 20px;
+        color: #FFF;
+        line-height: 25px;
+    }
+    #menu ul li:last-child {
+        border: none;
+    }
+    #menu ul li a:hover {
+        color: #E8E864;
+        text-decoration: underline;
+    }
+    #menu ul:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    #about {
+        height: auto;
+        color: #FFF;
+        letter-spacing: 3px;
+        box-sizing: border-box;
+        padding: 30px 30px;
+    }
+    #about h2 {
+        text-align: center;
+    }
+    #about p {
+        margin-top: 15px;
+    }
+    #prize {
+        position: relative;
+        background-image: url(../images/bg2.png);
+        background-size: 100%;
+        background-repeat: repeat;
+        height: 500px;
+    }
+    #prize p {
+        color: #2EC3E5;
+        text-align: center;
+        font-size: 30px;
+    }
+    #apply {
+        position: relative;
+        height: 300px;
+    }
+    #sponsor {
+        background-color: #211B28;
+        background-image: url(../images/apply.png);
+        background-size: 100%;
+        background-repeat: repeat;
+        height: 1500px;
+    }
+    #sponsor div {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        padding: 50px 50px 50px 50px;
+    }
+    #sponsor p {
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+    }
+    .ap-container {
+        padding: 20px;
+    }
+    .ap-container .word {
+        font-size: 25px;
+        color: #2EC3E5;
+        text-align: center;
+    }
+    .ap-container .image {
+        width: 70px;
+        height: 70px;
+        margin: 20px auto;
+        background-image: url(../images/next.png);
+        background-size: 100%;
+        background-repeat: repeat;
+    }
+    .ap-container .button {
+        text-align: center;
+        margin-top: 80px;
+        display: inline-block;
+        padding: 5px 15px;
+        font-size: 30px;
+        color: #fff;
+        margin: 100px auto 10px auto;
+        border-radius: 20px;
+        border: solid 5px #2EC3E5;
+        background: #201F44;
+        display: block;
+        width: 200px;
+    }
+    #question {
+        position: relative;
+        height: 1100px;
+    }
+    .qu-container {
+        position: relative;
+        width: 80%;
+        left: 10%;
+    }
+    .qu-container h3 {
+        color: #2EC3E5;
+        margin-top: 10px;
+    }
+    .qu-container p {
+        color: #FFF;
+    }
+    #copyright {
+        height: 100px;
+        color: #fff;
+        /*padding-top: 20px;*/
+        text-align: center;
+        background: #211B28;
+    }
+}

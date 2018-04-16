@@ -6,7 +6,7 @@ window.onload = function () {
   setInterval(function () {
     var aboutTop = about.getBoundingClientRect().top;
     var clientWidth = document.body.clientWidth;
-    if (clientWidth < 767 || aboutTop < 1) {
+    if (clientWidth < 1200 || aboutTop < 1) {
       menu.style.display = 'block';
     } else {
       menu.style.display = 'none';
