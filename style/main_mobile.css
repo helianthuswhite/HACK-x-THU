@@ -6,19 +6,19 @@
         padding: 100px 50px 50px 50px;
     }
     .event-lg {
-        margin-left: 200px;
+        margin-left: 50px;
     }
     .bubble.prepare {
-        margin-left: 200px;
+        margin-left: 50px;
     }
     .bubble.rest {
-        margin-left: 200px;
+        margin-left: 50px;
     }
     .bubble.crazy {
-        margin-left: 200px;
+        margin-left: 50px;
     }
     .time-span {
-        margin-left: 230px;
+        margin-left: 80px;
     }
     body {
         background: #211B28;
@@ -157,7 +157,6 @@
         background-image: url(../images/bg2.png);
         background-size: 100%;
         background-repeat: repeat;
-        height: 900px;
     }
     #prize div {
         margin: 0px 10px;
@@ -170,7 +169,6 @@
         background-image: url(../images/apply.png);
         background-size: 100%;
         background-repeat: repeat;
-        height: 1500px;
     }
     #sponsor div {
         font-size: 30px;
