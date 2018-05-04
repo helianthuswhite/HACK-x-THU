@@ -191,7 +191,6 @@
         background-image: url(../images/apply.png);
         background-size: 100%;
         background-repeat: repeat;
-        height: 1500px;
     }
     #sponsor div div {
         font-size: 30px;
@@ -208,7 +207,6 @@
         background-image: url(../images/apply.png);
         background-size: 100%;
         background-repeat: repeat;
-        height: 1000px;
     }
     #menu {
         position: fixed;
@@ -290,7 +288,6 @@
         color: #FFF;
     }
     #copyright {
-        height: 100px;
         color: #fff;
         /*padding-top: 80px;*/
         text-align: center;
