@@ -169,3 +169,8 @@ body {
   max-width: 450px;
   margin: 0 auto;
 }
+
+.img-responsive {
+  width: 60%;
+  height: 30%;
+}
